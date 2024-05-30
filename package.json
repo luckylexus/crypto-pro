@@ -1,5 +1,5 @@
 {
-  "name": "crypto-pro",
+  "name": "crypto-pro-getandsign",
   "version": "2.5.2",
   "description": "API для взаимодействия с КриптоПро",
   "main": "./lib/crypto-pro.js",
@@ -36,13 +36,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vgoma/crypto-pro"
+    "url": "git+https://github.com/luckylexus/crypto-pro.git"
   },
-  "author": {
-    "name": "Vitalii Goma",
-    "email": "vgoma@yandex.ru",
-    "url": "https://github.com/vgoma"
-  },
+  "author": "luckylexus luckylexus <luckylexus@yandex.ru> (https://github.com/luckylexus)",
   "keywords": [
     "crypto",
     "cryptopro",
@@ -74,5 +70,12 @@
     "typescript": "3.8.3",
     "webpack": "4.42.1",
     "webpack-cli": "3.3.11"
-  }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "bugs": {
+    "url": "https://github.com/luckylexus/crypto-pro/issues"
+  },
+  "homepage": "https://github.com/luckylexus/crypto-pro#readme"
 }
