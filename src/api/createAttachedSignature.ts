@@ -72,7 +72,7 @@ export const createAttachedSignature = _afterPluginsLoaded(
         let signature: string;
 
         try {
-          signature = __cadesAsyncToken__ + cadesSignedData.SignCades(cadesSigner, cadesplugin.CADESCOM_PKCS7_TYPE);
+          signature = __cadesAsyncToken__ + cadesSignedData.SignCades(cadesSigner, cadesplugin.CADESCOM_CADES_BES);
         } catch (error) {
           console.error(error);
 

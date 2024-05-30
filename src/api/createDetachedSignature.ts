@@ -89,7 +89,7 @@ export const createDetachedSignature = _afterPluginsLoaded(
         try {
           signature =
             __cadesAsyncToken__ +
-            cadesSignedData.SignHash(cadesHashedData, cadesSigner, cadesplugin.CADESCOM_PKCS7_TYPE);
+            cadesSignedData.SignHash(cadesHashedData, cadesSigner, cadesplugin.CADESCOM_CADES_BES);
         } catch (error) {
           console.error(error);
 
