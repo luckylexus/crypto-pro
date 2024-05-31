@@ -14,7 +14,7 @@
     ]
   },
   "include": [
-    "./src/crypto-pro.ts"
+    "./src/crypto-pro-getandsign.ts"
   ],
   "exclude": [
     "node_modules"
