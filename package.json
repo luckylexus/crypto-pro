@@ -1,6 +1,6 @@
 {
   "name": "crypto-pro-getandsign",
-  "version": "2.5.2",
+  "version": "1.0.0",
   "description": "API для взаимодействия с КриптоПро",
   "main": "./lib/crypto-pro.js",
   "types": "./lib/crypto-pro.d.ts",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luckylexus/crypto-pro.git"
+    "url": "git+https://github.com/luckylexus/crypto-pro-getandsign.git"
   },
   "author": "luckylexus luckylexus <luckylexus@yandex.ru> (https://github.com/luckylexus)",
   "keywords": [
@@ -73,9 +73,9 @@
     "example": "examples"
   },
   "bugs": {
-    "url": "https://github.com/luckylexus/crypto-pro/issues"
+    "url": "https://github.com/luckylexus/crypto-pro-getandsign/issues"
   },
-  "homepage": "https://github.com/luckylexus/crypto-pro#readme",
+  "homepage": "https://github.com/luckylexus/crypto-pro-getandsign#readme",
   "dependencies": {
     "ts-node": "^10.9.2"
   }
